@@ -6,7 +6,8 @@ class Admin extends MX_Controller {
         parent::__construct();
     }
     
-    public function login(){
+    public function template(){
+        $this->load->view('header');
         $this->load->view('login');
     }
 }
